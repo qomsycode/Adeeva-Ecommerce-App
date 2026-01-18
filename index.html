@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/Adeeva-Ecommerce-App/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Adeeva Ecommerce Web App">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="adeeva_ecommerce_webapp">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Adeeva Store</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* This style shows up instantly while Flutter downloads */
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: sans-serif;
+    }
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 80px;
+      height: 80px;
+      animation: spin 2s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
