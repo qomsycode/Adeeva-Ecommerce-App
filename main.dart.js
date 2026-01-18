@@ -45436,7 +45436,7 @@ A.Sn.prototype={
 tG(a){return this.ae9(a)},
 ae9(a){var s=0,r=A.C(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$tG=A.D(function(b,c){if(b===1){p.push(c)
-s=q}for(;;)switch(s){case 0:l=A.hU("https://paystack.shop/pay/5hn0cw6x4g",0,null)
+s=q}for(;;)switch(s){case 0:l=A.hU("https://paystack.shop/pay/eaqktpg32r",0,null)
 q=3
 s=9
 return A.G(A.aFZ(l),$async$tG)
